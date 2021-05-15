@@ -10,7 +10,6 @@ pipeline {
         stage('Echo') {
            steps {
                echo 'Running...'
-               sh label: '', script: 'date'
            }
         }        
     }
