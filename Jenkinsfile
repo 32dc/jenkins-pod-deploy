@@ -9,7 +9,7 @@ pipeline {
         } 
         stage('Echo') {
            steps {
-               echo 'Running.....'
+               echo 'Running....'
                sh label: '', script: 'date'
            }
         }        
