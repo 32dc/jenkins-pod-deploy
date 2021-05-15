@@ -4,7 +4,7 @@ pipeline {
        stage('Echo') {
            steps {
                echo 'Stage: Echo'
-               sleep 30
+               sleep 10
            }
         } 
        stage('Git Checkout') {
