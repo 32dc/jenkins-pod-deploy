@@ -3,9 +3,9 @@ pipeline {
     stages {
        stage('Echo') {
            steps {
-               echo 'Running...12'
+               echo 'Stage: Echo'
                sleep 30
            }
-        }        
+        } 
     }
 } 
