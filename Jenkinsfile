@@ -10,7 +10,7 @@ pipeline {
         stage('Main') {
             steps {
                 script {
-                    kubernetesDeploy (configs: "pod.yml")
+                    sh label: '', script: 'kubectl apply -f pod.yml'
                 }    
             }
         }
